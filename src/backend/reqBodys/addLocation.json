@@ -1,0 +1,25 @@
+{
+  "companyAddLocation": {
+    "passcode": "48515",
+    "locationData": {
+      "name": "test1",
+      "location": {
+        "latitude": 0.170147399999998,
+        "longitude": 99.89065389999999
+      },
+      "error": 200.0
+    }
+  },
+
+  "employee": {
+    "employeeId": "Ue5c8a064011f8f57e4d3f4b3c1125bb3",
+    "locationData": {
+      "name": "test1",
+      "location": {
+        "latitude": 0.170147399999998,
+        "longitude": 99.89065389999999
+      },
+      "error": 200.0
+    }
+  }
+}

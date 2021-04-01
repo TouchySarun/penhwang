@@ -1,0 +1,1102 @@
+{
+  "LastAttendenceCheck": {
+      "48515": {
+          "date": {
+              "_seconds": 1617209704,
+              "_nanoseconds": 710000000
+          }
+      },
+      "63628": {
+          "date": {
+              "_seconds": 1617209704,
+              "_nanoseconds": 715000000
+          }
+      },
+      "84075": {
+          "date": {
+              "_seconds": 1617209704,
+              "_nanoseconds": 533000000
+          }
+      },
+      "03344": {
+          "date": {
+              "_seconds": 1617209704,
+              "_nanoseconds": 719000000
+          }
+      }
+  },
+  "company": [
+      {
+          "name": "ซมซานเทค",
+          "description": "test test test",
+          "passcode": "48515",
+          "managers": [
+              "somtouch",
+              "somtiew"
+          ],
+          "tel": "0811111111",
+          "email": "examples@mail.com",
+          "address": {
+              "district": "เมืองเชียงใหม่",
+              "province": "เชียงใหม่",
+              "subDistrict": "สุเทพ",
+              "villageNo": "",
+              "room": "422",
+              "floor": "4",
+              "postalCode": "50200",
+              "houseNo": "",
+              "road": "",
+              "lane": "",
+              "building": "30 ปีที่มีนศน่ารักๆ"
+          },
+          "employees": [
+              "somjai",
+              "somtiew"
+          ],
+          "JobApplication": [
+              {
+                  "email": "somhui@email.com",
+                  "isWatched": false,
+                  "owner": "somhui",
+                  "tel": "0800000000",
+                  "recipient": "",
+                  "name": "สมหุ้ย ปุยเมฆ",
+                  "lineId": "somhui",
+                  "isConfirmed": false,
+                  "requestTime": {
+                      "_seconds": 1615977841,
+                      "_nanoseconds": 383000000
+                  },
+                  "confirmedTime": ""
+              },
+              {
+                  "name": "สมร็อค ป๊อกเด้ง",
+                  "isWatched": false,
+                  "isConfirmed": false,
+                  "confirmedTime": "",
+                  "lineId": "somrock",
+                  "owner": "somrock",
+                  "email": "somrock@email.com",
+                  "requestTime": {
+                      "_seconds": 1615741829,
+                      "_nanoseconds": 699000000
+                  },
+                  "tel": "0800000000",
+                  "recipient": ""
+              },
+              {
+                  "isConfirmed": "true",
+                  "requestTime": {
+                      "_seconds": 1615574690,
+                      "_nanoseconds": 190000000
+                  },
+                  "confirmedTime": {
+                      "_seconds": 1615652916,
+                      "_nanoseconds": 427000000
+                  },
+                  "owner": "somtiew",
+                  "recipient": "somtouch",
+                  "name": "สมทิว ปิ๊วๆ",
+                  "isWatched": true
+              }
+          ],
+          "changeSlotReqs": [
+              {
+                  "reason": "อยากมีกะ กะเค้าบ้าง",
+                  "confirmedReason": "จัดไปครับ",
+                  "recipient": "somtouch",
+                  "owner": "somjai",
+                  "newSlotName": "กะเช้า",
+                  "newSlot": "1e5MbvPYWLVdWS6fYgSR",
+                  "requestTime": {
+                      "_seconds": 1615647128,
+                      "_nanoseconds": 123000000
+                  },
+                  "oldSlot": "",
+                  "isConfirmed": true,
+                  "start": "Mon Mar 08 2021 21:11:51 GMT+0700 (Indochina Time)",
+                  "isWatched": true,
+                  "oldSlotName": "ไม่มีกะ",
+                  "confirmedTime": {
+                      "_seconds": 1615647157,
+                      "_nanoseconds": 41000000
+                  }
+              },
+              {
+                  "requestTime": {
+                      "_seconds": 1615049403,
+                      "_nanoseconds": 424000000
+                  },
+                  "newSlot": "EID5nzFtssipT8oSTi1m",
+                  "oldSlotName": "testSlot",
+                  "owner": "somjai",
+                  "isConfirmed": true,
+                  "recipient": "somtouch",
+                  "oldSlot": "dVU0enCXLBFEytcZakYg",
+                  "confirmedReason": "เปลี่ยน",
+                  "isWatched": true,
+                  "start": "Sat Mar 06 2021 23:50:26 GMT+0700 (Indochina Time)",
+                  "isWatch": false,
+                  "reason": "เปลี่ยน",
+                  "newSlotName": "กะเช้าแต่มาเลทได้นิดๆ",
+                  "confirmedTime": {
+                      "_seconds": 1615652603,
+                      "_nanoseconds": 272000000
+                  }
+              },
+              {
+                  "owner": "somjai",
+                  "recipient": "somtouch",
+                  "isWatched": true,
+                  "confirmedReason": "จัดไปครับ",
+                  "newSlotName": "กะเช้า",
+                  "newSlot": "1e5MbvPYWLVdWS6fYgSR",
+                  "requestTime": {
+                      "_seconds": 1615646144,
+                      "_nanoseconds": 326000000
+                  },
+                  "oldSlot": "",
+                  "confirmedTime": {
+                      "_seconds": 1615646652,
+                      "_nanoseconds": 975000000
+                  },
+                  "reason": "อยากมีกะ กะเค้าบ้าง",
+                  "start": "Mon Mar 08 2021 21:11:51 GMT+0700 (Indochina Time)",
+                  "isConfirmed": true,
+                  "oldSlotName": "ไม่มีกะ"
+              },
+              {
+                  "isWatched": false,
+                  "recipient": "",
+                  "confirmedTime": "",
+                  "owner": "somtouch",
+                  "oldSlotName": "ไม่มีกะ",
+                  "reason": "",
+                  "newSlot": "1e5MbvPYWLVdWS6fYgSR",
+                  "newSlotName": "กะเช้า",
+                  "isConfirmed": false,
+                  "requestTime": {
+                      "_seconds": 1615984500,
+                      "_nanoseconds": 663000000
+                  },
+                  "confirmedReason": "",
+                  "start": "2021-03-26T00:00:00.000Z",
+                  "oldSlot": ""
+              }
+          ],
+          "leaves": [
+              {
+                  "creator": "somtouch",
+                  "amount": "12",
+                  "name": "ลาป่วยสำหรับคนป่วยมากจริงๆนะ",
+                  "employees": [
+                      "somtouch",
+                      "somtiew",
+                      "somjai"
+                  ]
+              }
+          ],
+          "locations": [
+              {
+                  "creator": "somtouch",
+                  "lat": 19.171266694063156,
+                  "employees": [
+                      "somtouch",
+                      "somtiew"
+                  ],
+                  "lng": 99.89998329378957,
+                  "name": "บ้านสมทัช",
+                  "error": 200
+              },
+              {
+                  "employees": [
+                      "somtiew",
+                      "somjai",
+                      "somtouch"
+                  ],
+                  "name": "422",
+                  "lng": 98.95263237718213,
+                  "creator": "somtouch",
+                  "lat": 18.79587902569768,
+                  "error": 20
+              }
+          ],
+          "roles": [
+              {
+                  "description": "",
+                  "name": "หน่วยจู่โจมอากาศ",
+                  "creator": "somtouch"
+              },
+              {
+                  "description": "สำรวจนอกกำแพง",
+                  "name": "หน่วยสำรวจ",
+                  "creator": "somtouch"
+              }
+          ],
+          "slots": [
+              {
+                  "time": [
+                      {
+                          "in": "14:30",
+                          "day_of_week": 0,
+                          "out": "18:30"
+                      },
+                      {
+                          "in": "09:30",
+                          "out": "18:30",
+                          "day_of_week": 1
+                      },
+                      {
+                          "in": "09:30",
+                          "out": "18:30",
+                          "day_of_week": 2
+                      },
+                      {
+                          "day_of_week": 3
+                      },
+                      {
+                          "day_of_week": 4
+                      },
+                      {
+                          "day_of_week": 5
+                      },
+                      {
+                          "day_of_week": 6
+                      }
+                  ],
+                  "lateAfter": "20",
+                  "roles": [
+                      "biWDzBSEJtDKC6DNJc7u",
+                      "ErEpgu1ha2Nj1KaQFZmc"
+                  ],
+                  "creator": "somtouch",
+                  "name": "กะเช้า"
+              },
+              {
+                  "creator": "somtouch",
+                  "roles": [
+                      "ErEpgu1ha2Nj1KaQFZmc",
+                      "biWDzBSEJtDKC6DNJc7u"
+                  ],
+                  "time": [
+                      {
+                          "day_of_week": 0
+                      },
+                      {
+                          "out": "17:00",
+                          "day_of_week": 1,
+                          "in": "10:00"
+                      },
+                      {
+                          "day_of_week": 2
+                      },
+                      {
+                          "day_of_week": 3
+                      },
+                      {
+                          "day_of_week": 4
+                      },
+                      {
+                          "day_of_week": 5
+                      },
+                      {
+                          "day_of_week": 6
+                      }
+                  ],
+                  "name": "กะสาย",
+                  "lateAfter": ""
+              }
+          ]
+      },
+      {
+          "name": "touchcompany",
+          "employees": [
+              "Ue5c8a064011f8f57e4d3f4b3c1125bb3",
+              "U2167294ccb9a3100e062465c38acac17"
+          ],
+          "email": "touchcomp@email.com",
+          "tel": "0800000000",
+          "creator": "Ue5c8a064011f8f57e4d3f4b3c1125bb3",
+          "passcode": "63628",
+          "address": {
+              "district": "เมือง",
+              "room": "422",
+              "subDistrict": "สุเทพ",
+              "floor": "4",
+              "postalCode": "50200",
+              "province": "เชียงใหม่",
+              "building": "30ปี คณะวิศะวะ มช"
+          },
+          "managers": [
+              "Ue5c8a064011f8f57e4d3f4b3c1125bb3"
+          ],
+          "JobApplication": [
+              {
+                  "confirmedTime": {
+                      "_seconds": 1616171723,
+                      "_nanoseconds": 893000000
+                  },
+                  "name": "ธนันพร ยานะ",
+                  "requestTime": {
+                      "_seconds": 1616171546,
+                      "_nanoseconds": 443000000
+                  },
+                  "recipient": "Ue5c8a064011f8f57e4d3f4b3c1125bb3",
+                  "lineId": "tiew.ly",
+                  "isConfirmed": true,
+                  "email": "tiewsocute@gmail.com",
+                  "isWatched": true,
+                  "owner": "U2167294ccb9a3100e062465c38acac17",
+                  "tel": "0809988321"
+              }
+          ],
+          "changeSlotReqs": [],
+          "leaves": [
+              {
+                  "amount": "10",
+                  "name": "ลาป่วย",
+                  "creator": "Ue5c8a064011f8f57e4d3f4b3c1125bb3",
+                  "employees": [
+                      "U2167294ccb9a3100e062465c38acac17",
+                      "Ue5c8a064011f8f57e4d3f4b3c1125bb3"
+                  ],
+                  "delete": false
+              }
+          ],
+          "locations": [
+              {
+                  "lng": 98.95282527092513,
+                  "error": 70,
+                  "lat": 18.795681918170906,
+                  "creator": "Ue5c8a064011f8f57e4d3f4b3c1125bb3",
+                  "name": "ห้องเจอร์",
+                  "employees": [
+                      "U2167294ccb9a3100e062465c38acac17",
+                      "Ue5c8a064011f8f57e4d3f4b3c1125bb3"
+                  ]
+              }
+          ],
+          "roles": [
+              {
+                  "name": "Default role",
+                  "slot": [
+                      "Default slot"
+                  ],
+                  "description": "This is auto generate role."
+              }
+          ],
+          "slots": [
+              {
+                  "time": [
+                      {
+                          "day_of_week": 0
+                      },
+                      {
+                          "out": "16:30",
+                          "in": "08:00",
+                          "day_of_week": 1
+                      },
+                      {
+                          "in": "08:00",
+                          "out": "16:30",
+                          "day_of_week": 2
+                      },
+                      {
+                          "day_of_week": 3
+                      },
+                      {
+                          "day_of_week": 4
+                      },
+                      {
+                          "day_of_week": 5
+                      },
+                      {
+                          "day_of_week": 6
+                      }
+                  ],
+                  "name": "กะเช้า",
+                  "lateAfter": "15",
+                  "roles": [],
+                  "creator": "Ue5c8a064011f8f57e4d3f4b3c1125bb3"
+              },
+              {
+                  "description": "This is auto generate slot.",
+                  "name": "Default slot",
+                  "time": [
+                      {
+                          "in": "08:00:00",
+                          "out": "17:00:00",
+                          "day_of_week": 0
+                      },
+                      {
+                          "out": "17:00:00",
+                          "in": "08:00:00",
+                          "day_of_week": 1
+                      },
+                      {
+                          "day_of_week": 2,
+                          "out": "17:00:00",
+                          "in": "08:00:00"
+                      },
+                      {
+                          "day_of_week": 3,
+                          "out": "17:00:00",
+                          "in": "08:00:00"
+                      },
+                      {
+                          "out": "17:00:00",
+                          "in": "08:00:00",
+                          "day_of_week": 4
+                      },
+                      {
+                          "out": "17:00:00",
+                          "day_of_week": 5,
+                          "in": "08:00:00"
+                      },
+                      {
+                          "day_of_week": 6,
+                          "in": "08:00:00",
+                          "out": "17:00:00"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "นอร์ทเทิร์น ออโตเมชั่น ซิสเต็ม",
+          "managers": [
+              "Uc09765bf3fdb9b65dcb9f5d1f78d891f"
+          ],
+          "employees": [
+              "Uc09765bf3fdb9b65dcb9f5d1f78d891f",
+              "U5127c4a2e791f594fd28fd1bbe735d7c"
+          ],
+          "email": "",
+          "creator": "Uc09765bf3fdb9b65dcb9f5d1f78d891f",
+          "tel": "081-8833355",
+          "passcode": "84075",
+          "address": {
+              "subDistrict": "เวียง",
+              "building": "NAS",
+              "province": "พะเยา",
+              "houseNo": "8",
+              "road": "รอบเวียงประตูกลอง",
+              "district": "เมือง",
+              "postalCode": "56000"
+          },
+          "JobApplication": [
+              {
+                  "name": "รัตติการณ์ ทองจักร",
+                  "owner": "U5127c4a2e791f594fd28fd1bbe735d7c",
+                  "tel": "0819613704",
+                  "isWatched": true,
+                  "lineId": "karntjtj",
+                  "requestTime": {
+                      "_seconds": 1616235560,
+                      "_nanoseconds": 454000000
+                  },
+                  "confirmedTime": {
+                      "_seconds": 1616236198,
+                      "_nanoseconds": 788000000
+                  },
+                  "email": "ruttikarntj@hotmail.com",
+                  "isConfirmed": true,
+                  "recipient": "Uc09765bf3fdb9b65dcb9f5d1f78d891f"
+              },
+              {
+                  "name": "รัตติการณ์ ทองจักร",
+                  "recipient": "Uc09765bf3fdb9b65dcb9f5d1f78d891f",
+                  "confirmedTime": {
+                      "_seconds": 1616236213,
+                      "_nanoseconds": 920000000
+                  },
+                  "owner": "U5127c4a2e791f594fd28fd1bbe735d7c",
+                  "lineId": "karntjtj",
+                  "requestTime": {
+                      "_seconds": 1616235576,
+                      "_nanoseconds": 787000000
+                  },
+                  "tel": "0819613704",
+                  "isConfirmed": true,
+                  "isWatched": true,
+                  "email": "ruttikarntj@hotmail.com"
+              }
+          ],
+          "changeSlotReqs": [],
+          "leaves": [
+              {
+                  "employees": [
+                      "U5127c4a2e791f594fd28fd1bbe735d7c",
+                      "Uc09765bf3fdb9b65dcb9f5d1f78d891f"
+                  ],
+                  "delete": false,
+                  "name": "ลาป่วย",
+                  "amount": "30",
+                  "creator": "Uc09765bf3fdb9b65dcb9f5d1f78d891f"
+              }
+          ],
+          "locations": [
+              {
+                  "lat": 19.171297922178386,
+                  "name": "สำนักงานใหญ่",
+                  "lng": 99.89982863690946,
+                  "employees": [
+                      "U5127c4a2e791f594fd28fd1bbe735d7c",
+                      "Uc09765bf3fdb9b65dcb9f5d1f78d891f"
+                  ],
+                  "creator": "Uc09765bf3fdb9b65dcb9f5d1f78d891f",
+                  "error": 50
+              }
+          ],
+          "roles": [
+              {
+                  "managers": [
+                      "Uc09765bf3fdb9b65dcb9f5d1f78d891f"
+                  ],
+                  "name": "บัญชี",
+                  "description": "",
+                  "creator": "Uc09765bf3fdb9b65dcb9f5d1f78d891f"
+              },
+              {
+                  "description": "This is auto generate role.",
+                  "name": "Default role",
+                  "slot": [
+                      "Default slot"
+                  ]
+              }
+          ],
+          "slots": [
+              {
+                  "description": "This is auto generate slot.",
+                  "name": "Default slot",
+                  "time": [
+                      {
+                          "out": "17:00:00",
+                          "in": "08:00:00",
+                          "day_of_week": 0
+                      },
+                      {
+                          "day_of_week": 1,
+                          "out": "17:00:00",
+                          "in": "08:00:00"
+                      },
+                      {
+                          "day_of_week": 2,
+                          "out": "17:00:00",
+                          "in": "08:00:00"
+                      },
+                      {
+                          "day_of_week": 3,
+                          "out": "17:00:00",
+                          "in": "08:00:00"
+                      },
+                      {
+                          "out": "17:00:00",
+                          "day_of_week": 4,
+                          "in": "08:00:00"
+                      },
+                      {
+                          "in": "08:00:00",
+                          "out": "17:00:00",
+                          "day_of_week": 5
+                      },
+                      {
+                          "day_of_week": 6,
+                          "in": "08:00:00",
+                          "out": "17:00:00"
+                      }
+                  ]
+              },
+              {
+                  "time": [
+                      {
+                          "day_of_week": 0
+                      },
+                      {
+                          "out": "17:30",
+                          "in": "08:30",
+                          "day_of_week": 1
+                      },
+                      {
+                          "in": "08:30",
+                          "out": "17:30",
+                          "day_of_week": 2
+                      },
+                      {
+                          "day_of_week": 3,
+                          "in": "08:30",
+                          "out": "17:30"
+                      },
+                      {
+                          "day_of_week": 4,
+                          "in": "08:30",
+                          "out": "17:30"
+                      },
+                      {
+                          "in": "08:30",
+                          "out": "17:30",
+                          "day_of_week": 5
+                      },
+                      {
+                          "in": "08:30",
+                          "day_of_week": 6,
+                          "out": "17:30"
+                      }
+                  ],
+                  "creator": "Uc09765bf3fdb9b65dcb9f5d1f78d891f",
+                  "roles": [],
+                  "name": "เช้า",
+                  "lateAfter": "10"
+              }
+          ]
+      }
+  ],
+  "employee": [
+      {
+          "slot": {
+              "time": [
+                  {
+                      "day_of_week": 0
+                  },
+                  {
+                      "day_of_week": 1,
+                      "out": "16:30",
+                      "in": "08:00"
+                  },
+                  {
+                      "in": "08:00",
+                      "day_of_week": 2,
+                      "out": "16:30"
+                  },
+                  {
+                      "day_of_week": 3
+                  },
+                  {
+                      "day_of_week": 4
+                  },
+                  {
+                      "day_of_week": 5
+                  },
+                  {
+                      "day_of_week": 6
+                  }
+              ],
+              "lateAfter": "15"
+          },
+          "role": "",
+          "salary": {},
+          "slotId": "0eu6sYkwhldbrO6GB5r3",
+          "weakHoliday": 0,
+          "name": "ธนันพร ยานะ",
+          "leaveInProcess": [
+              {
+                  "start": {
+                      "_seconds": 1616173200,
+                      "_nanoseconds": 0
+                  },
+                  "requestId": "WbwIUrOFe1hxIotospEO",
+                  "end": {
+                      "_seconds": 1616345400,
+                      "_nanoseconds": 0
+                  }
+              }
+          ],
+          "lineId": "tiew.ly",
+          "tel": "0809988321",
+          "companyId": "63628",
+          "roleId": "",
+          "position": "",
+          "isEmployed": true,
+          "email": "tiewsocute@gmail.com",
+          "leaves": [
+              {
+                  "amount": "10",
+                  "used": 1,
+                  "name": "ลาป่วย",
+                  "requestId": [
+                      "WbwIUrOFe1hxIotospEO"
+                  ],
+                  "delete": false
+              }
+          ],
+          "locations": [
+              {
+                  "lng": 98.95282527092513,
+                  "name": "ห้องเจอร์",
+                  "lat": 18.795681918170906,
+                  "error": 70
+              }
+          ],
+          "workHour": [
+              {
+                  "date": {
+                      "_seconds": 1616171930,
+                      "_nanoseconds": 396000000
+                  },
+                  "attendance": [
+                      {
+                          "type": "1",
+                          "location": {
+                              "lat": 18.7957201,
+                              "lng": 98.9526408
+                          },
+                          "time": {
+                              "_seconds": 1616171930,
+                              "_nanoseconds": 396000000
+                          },
+                          "errorTime": 0,
+                          "isLate": false
+                      },
+                      {
+                          "time": {
+                              "_seconds": 1616171955,
+                              "_nanoseconds": 44000000
+                          },
+                          "type": "2",
+                          "errorTime": 0,
+                          "location": {
+                              "lat": 18.795717,
+                              "lng": 98.952649
+                          }
+                      }
+                  ],
+                  "amount": 0.006846666667196485
+              },
+              {
+                  "date": {
+                      "_seconds": 1616345705,
+                      "_nanoseconds": 399000000
+                  },
+                  "attendance": [
+                      {
+                          "type": "5"
+                      }
+                  ]
+              },
+              {
+                  "attendance": [
+                      {
+                          "type": "4"
+                      }
+                  ],
+                  "date": {
+                      "_seconds": 1616518505,
+                      "_nanoseconds": 809000000
+                  }
+              },
+              {
+                  "date": {
+                      "_seconds": 1616691306,
+                      "_nanoseconds": 172000000
+                  },
+                  "attendance": [
+                      {
+                          "type": "5"
+                      }
+                  ]
+              },
+              {
+                  "attendance": [
+                      {
+                          "type": "5"
+                      }
+                  ],
+                  "date": {
+                      "_seconds": 1616864104,
+                      "_nanoseconds": 548000000
+                  }
+              },
+              {
+                  "attendance": [],
+                  "date": {
+                      "_seconds": 1616930125,
+                      "_nanoseconds": 278000000
+                  },
+                  "amount": 0
+              },
+              {
+                  "attendance": [
+                      {
+                          "type": "4"
+                      }
+                  ],
+                  "date": {
+                      "_seconds": 1617123305,
+                      "_nanoseconds": 893000000
+                  }
+              }
+          ]
+      },
+      {
+          "tel": "0819613704",
+          "pos": "หัวหน้า",
+          "role": "บัญชี",
+          "email": "ruttikarntj@hotmail.com",
+          "companyId": "84075",
+          "name": "รัตติการณ์ ทองจักร",
+          "position": "",
+          "slotId": "tz52jjvArkwxJ4qdHRCE",
+          "roleId": "U8WcUaINhuXkSNy1J40S",
+          "weakHoliday": 0,
+          "salary": {
+              "type": "ประจำ",
+              "amount": "12000"
+          },
+          "lineId": "karntjtj",
+          "isManager": false,
+          "isEmployed": true,
+          "slot": {
+              "lateAfter": "10",
+              "time": [
+                  {
+                      "day_of_week": 0
+                  },
+                  {
+                      "day_of_week": 1,
+                      "out": "17:30",
+                      "in": "08:30"
+                  },
+                  {
+                      "in": "08:30",
+                      "day_of_week": 2,
+                      "out": "17:30"
+                  },
+                  {
+                      "in": "08:30",
+                      "day_of_week": 3,
+                      "out": "17:30"
+                  },
+                  {
+                      "in": "08:30",
+                      "out": "17:30",
+                      "day_of_week": 4
+                  },
+                  {
+                      "out": "17:30",
+                      "day_of_week": 5,
+                      "in": "08:30"
+                  },
+                  {
+                      "out": "17:30",
+                      "day_of_week": 6,
+                      "in": "08:30"
+                  }
+              ]
+          },
+          "leaves": [
+              {
+                  "leave": {
+                      "delete": false,
+                      "used": 0,
+                      "amount": "30",
+                      "requestId": [],
+                      "name": "ลาป่วย"
+                  }
+              }
+          ],
+          "locations": [
+              {
+                  "lat": 19.171297922178386,
+                  "error": 50,
+                  "name": "สำนักงานใหญ่",
+                  "lng": 99.89982863690946
+              }
+          ],
+          "workHour": []
+      },
+      {
+          "slotId": "",
+          "pos": "ผู้สร้างบริษัท",
+          "roleId": "U8WcUaINhuXkSNy1J40S",
+          "companyId": "84075",
+          "tel": "0979529956",
+          "salary": {
+              "amount": "15000",
+              "type": "ประจำ"
+          },
+          "email": "",
+          "isEmployed": true,
+          "name": "อมรรัตน์ ซือสุวรรณ",
+          "isManager": true,
+          "lineId": "ัั",
+          "slot": {},
+          "role": "บัญชี",
+          "leaves": [
+              {
+                  "leave": {
+                      "amount": "30",
+                      "delete": false,
+                      "used": 0,
+                      "name": "ลาป่วย",
+                      "requestId": []
+                  }
+              }
+          ],
+          "locations": [
+              {
+                  "name": "สำนักงานใหญ่",
+                  "lng": 99.89982863690946,
+                  "lat": 19.171297922178386,
+                  "error": 50
+              }
+          ],
+          "workHour": []
+      },
+      {
+          "role": "",
+          "slot": {
+              "time": [
+                  {
+                      "day_of_week": 0
+                  },
+                  {
+                      "in": "08:00",
+                      "day_of_week": 1,
+                      "out": "16:30"
+                  },
+                  {
+                      "day_of_week": 2,
+                      "out": "16:30",
+                      "in": "08:00"
+                  },
+                  {
+                      "day_of_week": 3
+                  },
+                  {
+                      "day_of_week": 4
+                  },
+                  {
+                      "day_of_week": 5
+                  },
+                  {
+                      "day_of_week": 6
+                  }
+              ],
+              "lateAfter": "15"
+          },
+          "companyId": "63628",
+          "isManager": false,
+          "lineId": "touch",
+          "email": "touch@email.com",
+          "roleId": "",
+          "tel": "0800000001",
+          "name": "default name",
+          "pos": "ผู้สร้างบริษัท",
+          "leaveInProcess": [
+              {
+                  "start": {
+                      "_seconds": 1616346000,
+                      "_nanoseconds": 0
+                  },
+                  "end": {
+                      "_seconds": 1616604600,
+                      "_nanoseconds": 0
+                  },
+                  "requestId": "Vzhc70YUnRx4CmiO1yaT"
+              }
+          ],
+          "salary": {
+              "type": "ประจำ",
+              "amount": "200000"
+          },
+          "isEmployed": true,
+          "slotId": "0eu6sYkwhldbrO6GB5r3",
+          "leaves": [
+              {
+                  "used": 3,
+                  "requestId": [
+                      "Vzhc70YUnRx4CmiO1yaT",
+                      "psIbKKVQAtbaPWFkxHgX"
+                  ],
+                  "amount": "10",
+                  "delete": false,
+                  "name": "ลาป่วย"
+              }
+          ],
+          "locations": [
+              {
+                  "lat": 18.795681918170906,
+                  "lng": 98.95282527092513,
+                  "name": "ห้องเจอร์",
+                  "error": 70
+              }
+          ],
+          "workHour": [
+              {
+                  "amount": 0,
+                  "date": {
+                      "_seconds": 1616245873,
+                      "_nanoseconds": 307000000
+                  },
+                  "attendance": []
+              },
+              {
+                  "date": {
+                      "_seconds": 1616323337,
+                      "_nanoseconds": 95000000
+                  },
+                  "amount": 0,
+                  "attendance": []
+              },
+              {
+                  "date": {
+                      "_seconds": 1616518505,
+                      "_nanoseconds": 809000000
+                  },
+                  "attendance": [
+                      {
+                          "type": "4"
+                      }
+                  ]
+              },
+              {
+                  "date": {
+                      "_seconds": 1616691306,
+                      "_nanoseconds": 172000000
+                  },
+                  "attendance": [
+                      {
+                          "type": "5"
+                      }
+                  ]
+              },
+              {
+                  "date": {
+                      "_seconds": 1616864104,
+                      "_nanoseconds": 548000000
+                  },
+                  "attendance": [
+                      {
+                          "type": "5"
+                      }
+                  ]
+              },
+              {
+                  "date": {
+                      "_seconds": 1616929068,
+                      "_nanoseconds": 356000000
+                  },
+                  "amount": 0,
+                  "attendance": []
+              },
+              {
+                  "date": {
+                      "_seconds": 1617123305,
+                      "_nanoseconds": 893000000
+                  },
+                  "attendance": [
+                      {
+                          "type": "4"
+                      }
+                  ]
+              }
+          ]
+      }
+  ],
+  "tokenList": {
+      "RTuR719Mn8rqYGNtg8gS": {
+          "token": "default",
+          "default": "default"
+      }
+  }
+}

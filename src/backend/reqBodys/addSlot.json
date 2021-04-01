@@ -1,0 +1,43 @@
+{
+  "passcode": "48515",
+  "name": "late morning",
+  "description": "late morning shift for narmal employee",
+  "employeeId": "Ue5c8a064011f8f57e4d3f4b3c1125bb3",
+  "time": [
+      {
+        "day_of_week": 0,
+        "in": "09:00:00",
+        "out": "18:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "in": "09:00:00",
+        "out": "18:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "in": "09:00:00",
+        "out": "18:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "in": "09:00:00",
+        "out": "18:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "in": "09:00:00",
+        "out": "18:00:00"
+      },
+      {
+        "day_of_week": 5,
+        "in": "09:00:00",
+        "out": "18:00:00"
+      },
+      {
+        "day_of_week": 6,
+        "in": "09:00:00",
+        "out": "18:00:00"
+      }
+    ]
+}

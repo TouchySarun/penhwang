@@ -1,0 +1,53 @@
+.v-expansion-panel-header{
+  color:inherit;
+  p{
+    margin: 0;
+  }
+  span{
+    color: #6D4C41;
+    margin-left: 10px;
+    font-size: 1.25rem;
+  }
+}
+.v-expansion-panel-content{
+  color: #757575
+}
+.detail{
+  margin-top: 10px;
+  font-size: 80%;
+  font-weight: 80%;
+  color: #303030;
+  span{
+    font-size: 100%;
+    color:white;
+    padding: 0px 10px;
+    border-radius: 5px;
+  }
+}
+.leave-req{
+  border-top: solid #FFB300;
+  color:#FFB300 !important;
+  .detail{
+    span{
+      background-color:#FFB300;
+    }
+  }
+}
+.change-shift-req{
+  border-top: solid #78909C;
+  color:#78909C !important;
+  .detail{
+    span{
+      background-color:#78909C;
+    }
+  }
+}
+.job-application-req{
+  border-top: solid #E53935;
+  color:#E53935 !important;
+  .detail{
+    span{
+      background-color:#E53935;
+    }
+  }
+}

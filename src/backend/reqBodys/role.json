@@ -1,0 +1,36 @@
+{
+  "Delete": {
+    "passcode": "",
+    "roleId": ""
+  },
+  "EditDetail": {
+    "passcode": "",
+    "roleId": "",
+    "roleDetail": {
+      
+    }
+  },
+  "GetSlot": {
+    "passcode": "",
+    "roleId": ""
+  },
+  "UpdateSlot": {
+    "passcode": "",
+    "roleId": "",
+    "slot": ["slotname"]
+  },
+  "GetEmployee": {
+    "passcode": "",
+    "roleId": ""
+  },
+  "AddEmployee": {
+    "passcode": "",
+    "roleId": "",
+    "employeeId": ""
+  },
+  "RemoveEmployee": {
+    "passcode": "",
+    "roleId": "",
+    "employeeId": ""
+  }
+}

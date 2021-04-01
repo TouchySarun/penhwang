@@ -1,0 +1,90 @@
+{
+  "company":{
+    "passcode": 48535,
+    "name": "ซมซานเทค",
+    "tel": "0811111111",
+    "email": "example@mail.com",
+    "address": {
+      "building":"30 ปี",
+      "room":"422",
+      "floor":"4",
+      "houseNo": "",
+      "villageNo": "",
+      "lane": "",
+      "road": "",
+      "subDistrict": "สุเทพ",
+      "district": "เมืองเชียงใหม่",
+      "province": "เชียงใหม่",
+      "postalCode": "50200"
+    }
+  },
+  "employees":[
+      {"id":"sommai", "name":"สมหมาย ใจดี", "role": "พนักงานบัญชี", "pos": "หัวหน้าพนักงาน", "tel": "0800000000", "salary": { "type": "รายเดือน", "amount": 20000}, "lineId":"mock_lineId","email":"sample@email.com", "img":"https://cdn.vuetifyjs.com/images/john.jpg"},
+      {"id":"somkong", "name":"สมคง ปงใจ", "role": "พนักงานบัญชี", "pos": "เลขา", "tel": "0800000000", "salary": { "type": "รายเดือน", "amount": 20000}, "lineId":"mock_lineId","email":"sample@email.com", "img":"https://cdn.vuetifyjs.com/images/john.jpg"},
+      {"id":"somporn", "name":"สมพร ป้อนเข้าปาก", "role": "พนักงานบัญชี", "pos": "ทั่วไป", "tel": "0800000000", "salary": { "type": "รายเดือน", "amount": 20000}, "lineId":"mock_lineId","email":"sample@email.com", "img":"https://cdn.vuetifyjs.com/images/john.jpg"},
+      {"id":"somchai", "name":"สมชาย ใจดี", "role": "พนักงานบัญชี", "pos": "ทั่วไป", "tel": "0800000000", "salary": { "type": "รายวัน", "amount": 320}, "lineId":"mock_lineId","email":"sample@email.com", "img":"https://cdn.vuetifyjs.com/images/john.jpg"},
+      {"id":"somying", "name":"สมหญิง จริงใจ", "role": "พนักงานบัญชี", "pos": "ทั่วไป", "tel": "0800000000", "salary": { "type": "รายวัน", "amount": 320}, "lineId":"mock_lineId","email":"sample@email.com", "img":"https://cdn.vuetifyjs.com/images/john.jpg"},
+      {"id":"somsee", "name":"สมศรี ปรีดี", "role": "พนักงานขาย", "pos": "หัวหน้าพนักงาน", "tel": "0800000000", "salary": { "type": "รายวัน", "amount": 320}, "lineId":"mock_lineId","email":"sample@email.com", "img":"https://cdn.vuetifyjs.com/images/john.jpg"},
+      {"id":"sompop", "name":"สมพบ ประสบเหตุ", "role": "พนักงานขาย", "pos": "ทั่วไป", "tel": "0800000000", "salary": { "type": "รายวัน", "amount": 320}, "lineId":"mock_lineId","email":"sample@email.com", "img":"https://cdn.vuetifyjs.com/images/john.jpg"},
+      {"id":"somrak", "name":"สมรัก คึกคักจัง", "role": "พนักงานขาย", "pos": "ทั่วไป", "tel": "0800000000", "salary": { "type": "รายวัน", "amount": 320}, "lineId":"mock_lineId","email":"sample@email.com", "img":"https://cdn.vuetifyjs.com/images/john.jpg"},
+      {"id":"somtiew", "name":"สมทิว ปิ๊วปิ๊ว", "role": "พนักงานขาย", "pos": "ทั่วไป", "tel": "0800000000", "salary": { "type": "รายวัน", "amount": 320}, "lineId":"mock_lineId","email":"sample@email.com", "img":"https://cdn.vuetifyjs.com/images/john.jpg"}
+  ],
+  "slots": {
+    "morning":{
+      "id":"morning", "name": "กะเช้า",
+      "employees": ["somporn","somchai","somying"],
+      "times": [
+        {"day_of_week":0},
+        {"day_of_week":1,"in": "08:00","out": "17:00"},
+        {"day_of_week":2,"in": "08:00","out": "17:00"},
+        {"day_of_week":3},
+        {"day_of_week":4,"in": "08:00","out": "17:00"},
+        {"day_of_week":5,"in": "08:00","out": "17:00"},
+        {"day_of_week":6,"in": "08:00","out": "17:00"}
+      ]
+    },
+    "late":{
+      "id":"late","name": "กะบ่าย",
+      "employees": ["sommai", "somkong"],
+      "times": [
+        {"day_of_week":0},
+        {"day_of_week":1,"in": "09:00","out": "18:00"},
+        {"day_of_week":2,"in": "09:00","out": "18:00"},
+        {"day_of_week":3},
+        {"day_of_week":4,"in": "09:00","out": "18:00"},
+        {"day_of_week":5,"in": "09:00","out": "18:00"},
+        {"day_of_week":6,"in": "09:00","out": "18:00"}
+      ]
+    }
+  },
+  "roles": {
+    "account":{"id":"account", "name":"พนักงานบัญชี", "description":"ดูแลบัญชีของบริษัท",
+      "managers": ["sommai","somkong"],
+      "employees": ["somporn","somchai","somying"],
+      "slots":  ["morning","late"]
+    },
+    "seller":{"id":"seller", "name":"พนักงานขาย", "description":"ขายของและดูแลหน้าร้าน",
+      "managers": ["somsee"],
+      "employees": ["sompop","somrak","somtiew"],
+      "slots":  ["morning"]
+    }
+  },
+  "leaves": {
+    "bus":{"id":"bus", "name": "ลากิจ", "amount": 10, "cycle": "เดือน", "employee": ["somporn","somchai", "somying"]},
+    "sick":{"id":"sick", "name": "ลาป่วย", "amount": 20, "cycle":"ปี", "employee": ["sommai","somkong","somporn","somchai","somying"]}
+  },
+  "locations": {
+    "location1":{"id": "location1", "name":"home", "lat": 13.746774, "lng": 100.5348332, "error": 10.0, "employees":["sommai","somkong","somporn", "somchai", "somying"]},
+    "location2":{"id": "location2", "name":"home2", "lat": 0.0, "lng": 0.0, "error": 10.0, "employees":["sompop", "somrak","somtiew","somsee"]}
+  },
+  "requests":[
+    {"type": "ขอลากิจ", "name": "สมใจ นะจ๊ะ", "time": "วันพุธ 28 ตุลาคม 2563, 09:30", "start":"", "end":""},
+    {"type": "ขอลาป่วย", "name": "สมใจ นะจ๊ะ", "time": "วันพุธ 28 ตุลาคม 2563, 09:30", "start":"", "end":""},
+    {"type": "ขอเปลี่ยนกะ", "name": "สมใจ นะจ๊ะ", "time": "วันพุธ 28 ตุลาคม 2563, 09:30", "old":"กะเช้า", "new":"กะบ่าย"}
+  ],
+  "confirmedReq": [
+    {"type": "ขอลากิจ", "name": "สมใจ นะจ๊ะ", "manager": "สมหมาย ใจใจ", "time": "วันพุธ 28 ตุลาคม 2563, 09:30", "confirmedTime": "วันพุธ 28 ตุลาคม 2563, 09:30"},
+    {"type": "ขอลาป่วย", "name": "สมใจ นะจ๊ะ", "manager": "สมหมาย ใจใจ", "time": "วันพุธ 28 ตุลาคม 2563, 09:30", "confirmedTime": "วันพุธ 28 ตุลาคม 2563, 09:30"},
+    {"type": "ขอเปลี่ยนกะ", "name": "สมใจ นะจ๊ะ", "manager": "สมหมาย ใจใจ", "time": "วันพุธ 28 ตุลาคม 2563, 09:30", "confirmedTime": "วันพุธ 28 ตุลาคม 2563"}
+  ]
+  }

@@ -1,0 +1,80 @@
+{
+  "address_components": [
+    {
+      "long_name": "Kanpur",
+      "short_name": "Kanpur",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Kanpur Nagar",
+      "short_name": "Kanpur Nagar",
+      "types": [ "administrative_area_level_2", "political" ]
+    }, {
+      "long_name": "Uttar Pradesh",
+      "short_name": "UP",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "India",
+      "short_name": "IN",
+      "types": [ "country", "political" ]
+    }
+  ],
+  "adr_address": "<span class=\"locality\">Kanpur</span>, <span class=\"region\">Uttar Pradesh</span>, <span class=\"country-name\">India</span>", "formatted_address": "Kanpur, Uttar Pradesh, India",
+  "geometry": {
+    "location": { "lat": 26.449923, "lng": 80.3318736 },
+    "viewport": { "south": 26.35126736154804, "west": 80.20877841884727, "north": 26.54307998879035, "east": 80.4679870511565 }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+  "name": "Kanpur",
+  "photos": [
+    {
+      "height": 768,
+      "html_attributions": [ "<a href=\"https://maps.google.com/maps/contrib/113860657786379706054\">Venkatesh Bhat</a>" ],
+      "width": 1024
+    }, {
+      "height": 1061,
+      "html_attributions": [ "<a href=\"https://maps.google.com/maps/contrib/113860657786379706054\">Venkatesh Bhat</a>" ],
+      "width": 1600
+    }, {
+      "height": 2172,
+      "html_attributions": [ "<a href=\"https://maps.google.com/maps/contrib/100528114662789611419\">Utkarsh Sachan</a>" ],
+      "width": 2896
+    }, {
+      "height": 4000,
+      "html_attributions": [ "<a href=\"https://maps.google.com/maps/contrib/111598300443163624827\">Rohan Bhadauria</a>" ],
+      "width": 6000
+    }, {
+      "height": 391,
+      "html_attributions": [ "<a href=\"https://maps.google.com/maps/contrib/107059572256570920943\">Rahul Vaish</a>" ],
+      "width": 783
+    }, {
+      "height": 3024,
+      "html_attributions": [ "<a href=\"https://maps.google.com/maps/contrib/106067297946465362182\">Rahul Shankar</a>" ],
+      "width": 4032
+    }, {
+      "height": 2368,
+      "html_attributions": [ "<a href=\"https://maps.google.com/maps/contrib/113625202454287287550\">KIRTI SANKHWAR</a>" ],
+      "width": 4208
+    }, {
+      "height": 400,
+      "html_attributions": [ "<a href=\"https://maps.google.com/maps/contrib/102670480587800010912\">asif mansoori</a>" ],
+      "width": 547
+    }, {
+      "height": 598,
+      "html_attributions": [ "<a href=\"https://maps.google.com/maps/contrib/108988073270548864257\">Mayank Awasthi</a>" ],
+      "width": 900
+    }, {
+      "height": 4608,
+      "html_attributions": [ "<a href=\"https://maps.google.com/maps/contrib/100126970378048325830\">Tushar Mishra</a>" ],
+      "width": 2126
+    }
+  ],
+  "place_id": "ChIJb8QnsXBHnDkRQXu-nyoweBc",
+  "reference": "ChIJb8QnsXBHnDkRQXu-nyoweBc",
+  "types": [ "locality", "political" ],
+  "url": "https://maps.google.com/?q=Kanpur,+Uttar+Pradesh,+India&ftid=0x399c4770b127c46f:0x1778302a9fbe7b41",
+  "utc_offset": 330,
+  "vicinity": "Kanpur",
+  "website": "http://kanpurnagar.nic.in/",
+  "html_attributions": [],
+  "utc_offset_minutes": 330
+}
