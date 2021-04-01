@@ -10,5 +10,9 @@ penhwang (เป็นห่วง) คือ LINE chatbot สำหรับจ
 แต่สามารถแก้ไขข้อบกพร่องที่เกิดขึ้น มีการแจ้งเตือนมากขึ้น สามารถเข้าถึงได้ง่าย และ ไม่มีการดาวน์-โหลดแอปพลิเคชันเพิ่มเติม
 
 ## โครงการนี้ประกอบด้วยหลายส่วนแต่ละส่วนก็จะมีวิธีการตั้งค่าที่ต่างกัน
-### Backend
-โครงการนี้ใช้ firebase functions เป็น Backend การติดตั้งและขอ key ต่าง ๆ สามารถศึกษาได้จาก[ที่นี่](https://medium.com/firebasethailand/%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81-cloud-functions-for-firebase-%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%95%E0%B9%88-zero-%E0%B8%88%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99-hero-1c94acbb55af)
+## Back-end
+โครงงานนี้ใช้ firebase functions เป็น Backend การตั้งค่า และขอ key ต่าง ๆ สามารถศึกษาได้จาก[ที่นี่](https://medium.com/firebasethailand/%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81-cloud-functions-for-firebase-%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%95%E0%B9%88-zero-%E0%B8%88%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99-hero-1c94acbb55af)
+## Front-end
+โครงงานนี้ใช้ nuxt.js เป็น front-end frame work การตั้งค่า สามารถศึกษาได้จาก[ที่นี่](https://medium.com/i-gear-geek/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-nuxt-js-%E0%B8%88%E0%B8%B2%E0%B8%81-baby-to-ready-f7e0718ac861)
+## LINE Bot และ Dialogflow
+ส่วนสำคัญของโครงงานนี้คือ LINE Bot และ Dialogflow ซึ่งสามารถศึกษาการตั้งค่าได้จาก[ที่นี่](https://medium.com/linedevth/%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%81%E0%B8%B2%E0%B8%A3-integrate-line-bot-%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%9A-dialogflow-%E0%B9%81%E0%B8%A5%E0%B8%B0-firebase-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99-bmi-bot-5a30a672f6ae)
