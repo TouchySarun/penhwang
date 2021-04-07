@@ -4,7 +4,7 @@ const mobileLink = 'https://penhwangmobile.netlify.app';
 const LINE_MESSAGING_API = 'https://api.line.me/v2/bot/message';
 const LINE_HEADER = {
   'Content-Type': 'application/json',
-  'Authorization': `Bearer nuuGlVMmEn/GXyRTYU8VdXeQ0N8byO8OQiWwpGnQ8lMpKrfEvmH0mP3URdItnzbqThyksyYgq1YROUfEjoXu0VlODgDtbrTzg2ynTU66/iNdI3bVkTyHRm652xLP4iWXAD6CJcmj6dYb975vDhn3oAdB04t89/1O/w1cDnyilFU=`
+  'Authorization': `**********`
 };
 
 const Post = (userId, message) => {
